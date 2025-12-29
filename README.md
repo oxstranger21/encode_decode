@@ -25,35 +25,43 @@ PyQt6
 
 Base64 (Standard Encoding Library)
 
-📷 Application Overview
+▶️ How to Run the Project
 
-Input text box for entering messages
+🧩 Step 1: Clone the Repository    
+```bash     
+git clone https://github.com/oxstranger21/encode_decode.git   
+cd encode_decode
+```
 
-Encode button to convert text into Base64
+🧪 Step 2: Create a Virtual Environment (Recommended)   
+```bash        
+python -m venv venv
+```
 
-Decode button to convert Base64 back to text
+Activate the virtual environment:
 
-Output text box to display results
-
-Clear button to reset input and output
-
-<img width="1536" height="1024" alt="run" src="https://github.com/user-attachments/assets/039513a8-25db-4d1e-b716-7de372c27a03" />
-
-
-
-🧪 Example Usage
-
-Enter a message like:
-
-Hello World
+Windows
+```bash
+venv\Scripts\activate
+```
 
 
-Click Encode → Output:
+Linux / macOS
+```bash
+source venv/bin/activate
+```
 
-SGVsbG8gV29ybGQ=
+📦 Step 3: Install Required Dependencies  
+```bash       
+pip install -r requirements.txt
+```
+▶️ Step 4: Run the Application
+```bash         
+python project.py
+```
 
 
-Click Decode to get the original message back.
+<img width="1536" height="1024" alt="ex" src="https://github.com/user-attachments/assets/36a13d64-b326-4f41-be20-ae2c725ec437" />
 
 
 
@@ -62,15 +70,7 @@ Click Decode to get the original message back.
 This tool uses Base64 encoding, which is not encryption.
 It is meant for learning, data formatting, and demonstration purposes only, not for secure data protection.
 
-🎯 Learning Outcomes
 
-Understanding PyQt6 GUI development
-
-Working with Base64 encoding/decoding
-
-Event handling in GUI applications
-
-Clean UI design with stylesheets
 
 📄 License
 
