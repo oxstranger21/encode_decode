@@ -1,3 +1,5 @@
+<img width="1536" height="1024" alt="encoder" src="https://github.com/user-attachments/assets/af03b505-d0a3-4ddc-9064-f556c1b0df9f" />
+
 A simple and user-friendly Encoder & Decoder desktop application built using Python and PyQt6.
 This tool allows users to encode and decode text messages using Base64 encoding through a modern graphical interface.
 
@@ -35,22 +37,9 @@ Output text box to display results
 
 Clear button to reset input and output
 
-📂 Project Structure
-encoder-decoder/
-│
-├── app.py
-└── README.md
+<img width="1536" height="1024" alt="run" src="https://github.com/user-attachments/assets/039513a8-25db-4d1e-b716-7de372c27a03" />
 
-▶️ How to Run the Project
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/encoder-decoder.git
-cd encoder-decoder
 
-2️⃣ Install Dependencies
-pip install pyqt6
-
-3️⃣ Run the Application
-python app.py
 
 🧪 Example Usage
 
@@ -65,6 +54,8 @@ SGVsbG8gV29ybGQ=
 
 
 Click Decode to get the original message back.
+
+
 
 ⚠️ Important Note
 
